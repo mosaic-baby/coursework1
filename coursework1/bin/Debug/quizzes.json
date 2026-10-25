@@ -1,0 +1,76 @@
+[
+  {
+    "Title": "Тестовая викторина по C#",
+    "Questions": [
+      {
+        "Text": "Что такое CLR?",
+        "Options": [
+          {
+            "Text": "Common Language Runtime",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Компьютерная мышь",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Знание Фионы Эппл",
+    "Questions": [
+      {
+        "Text": "В каком году Фиона выпустила свой первый альбом?",
+        "Options": [
+          {
+            "Text": "1996",
+            "IsCorrect": true
+          },
+          {
+            "Text": "1991",
+            "IsCorrect": false
+          },
+          {
+            "Text": "1997",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Сколько всего альбомов Фионы выпутсила на данынй момент? ",
+        "Options": [
+          {
+            "Text": "5",
+            "IsCorrect": true
+          },
+          {
+            "Text": "4",
+            "IsCorrect": false
+          },
+          {
+            "Text": "7",
+            "IsCorrect": false
+          }
+        ]
+      },
+      {
+        "Text": "Назовите самую пополярную пенсю Фионы",
+        "Options": [
+          {
+            "Text": "Criminal",
+            "IsCorrect": true
+          },
+          {
+            "Text": "Fast as you can",
+            "IsCorrect": false
+          },
+          {
+            "Text": "Paper bag",
+            "IsCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]

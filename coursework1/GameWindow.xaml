@@ -1,0 +1,37 @@
+﻿<Window x:Class="coursework1.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coursework1"
+        mc:Ignorable="d"
+        Title="Прохождение викторины" Height="400" Width="600">
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Номер вопроса -->
+            <RowDefinition Height="Auto"/>
+            <!-- Текст вопроса -->
+            <RowDefinition Height="*"/>
+            <!-- Варианты ответов -->
+            <RowDefinition Height="Auto"/>
+            <!-- Кнопка -->
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="QuestionNumberText" Grid.Row="0" Text="Вопрос 1 из X" 
+                   FontSize="14" Foreground="#666666" Margin="0,0,0,10"/>
+
+        <TextBlock x:Name="QuestionTitleText" Grid.Row="1" Text="Здесь будет текст вопроса?" 
+                   FontSize="20" FontWeight="Bold" TextWrapping="Wrap" Foreground="#333333" Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="2" x:Name="AnswersStackPanel" Margin="10,0,0,0"/>
+
+        <Button Grid.Row="3" x:Name="NextButton" Content="Ответить" 
+                Width="150" Height="40" HorizontalAlignment="Right"
+                Background="#007ACC" Foreground="White" FontWeight="Bold" BorderThickness="0" 
+                Click="NextButton_Click"/>
+            
+       
+
+    </Grid>
+</Window>
